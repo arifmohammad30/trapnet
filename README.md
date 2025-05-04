@@ -5,13 +5,13 @@ This project involves the creation of a Honeypot-based detection and analysis sy
 The honeypot deceives attackers by presenting fake login forms, input fields, and hidden endpoints designed to appear exploitable. Once an attacker interacts with these, the system logs their actions—such as SQL injection attempts, unauthorized URL access, or brute-force login tries—and immediately sends a notification email to the administrator for timely action.
 
 Technologies Used:
-Frontend: HTML, CSS, JavaScript (for UI and traps)
+
 
 Backend: Python with Flask
 
 Email Alerts: Python smtplib.
 
-Database: SQLite/MySQL for attack logs
+
 
 Security Tools: Wireshark
 
